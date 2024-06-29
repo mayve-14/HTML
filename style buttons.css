@@ -1,0 +1,71 @@
+#SUBSCRIBE{
+  background-color: rgb(199, 5, 5);
+  color: white;
+  border: none;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 16px;
+   padding-left: 16px;
+  /*using padding is a better approach than using height and width*/
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;/*align button to the top of web page*/
+
+}
+#Join{
+  background-color: white;
+  color: rgb(100, 161, 211);
+  border-color:rgb(100, 161, 211);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  padding-left: 16px;
+  /*font-size: larger;*/
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+  vertical-align: top;/*align button to the top of web page*/
+
+}
+.TWEET-Button{
+  background-color: rgb(83, 180, 204);
+  color: white; /*text color*/
+  border: none;
+  height: 36px;
+  width: 75px;
+  border-radius: 30px; /*high reduis gives rounded borders*/
+  cursor: pointer;
+  margin-right: 8px; /*space outside the button*/
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 2px;/*space in side the button*/
+  vertical-align: top; /*align button to the top of web page*/
+}
+
+#SUBSCRIBE:hover{
+  opacity: 0.6; /*opacity 0 means transparent*/
+}
+#SUBSCRIBE:active{
+  opacity: 0.3;
+  
+}
+
+#Join:hover{
+  background-color:rgb(100, 161, 211) ;
+  color: white;
+}
+#Join:active{
+  opacity: 0.7;
+  
+}
+.TWEET-Button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*shadow*/
+
+}
